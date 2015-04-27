@@ -6,6 +6,8 @@ $ ruby todo.rb add <task>
 $ ruby todo.rb list
 $ ruby todo.rb delete <task_id>
 $ ruby todo.rb complete <task_id>
+$ ruby todo.rb list:outstanding
+$ ruby todo.rb list:completed
 ```
 
 The CSV document is saved in this format:
